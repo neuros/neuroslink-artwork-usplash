@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+case "$1" in
+    configure)
+	update-alternatives --remove usplash-artwork.so /usr/lib/usplash/usplash-theme-neuroslink.so 
+	#set one higher than kubuntu so kubuntu can still have standalone neuroslink boxen too
+	update-alternatives --install /usr/lib/usplash/usplash-artwork.so usplash-artwork.so /usr/lib/usplash/usplash-theme-neuroslink.so 56
+	update-initramfs -u
+        ;;
+esac

@@ -1,0 +1,18 @@
+neurostvpc-artwork-usplash (1.0) intrepid; urgency=low
+
+  * Name change to neuroslink-artwork-usplash
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Tue, 06 Jan 2009 14:00:50 -0600
+
+neurostvpc-artwork-usplash (0.2) intrepid; urgency=low
+
+  * Corrected the 640x400 image to sync with John
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Thu, 20 Nov 2008 12:23:28 -0600
+
+neurostvpc-artwork-usplash (0.1) intrepid; urgency=low
+
+  * Initial release.
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Wed, 19 Nov 2008 13:25:42 -0600
+
